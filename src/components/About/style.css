@@ -1,0 +1,15 @@
+.About {
+    background-color: #C0C0C0;
+    overflow: auto;
+}
+
+.About img {
+    width: 10vw;
+    float: left;
+}
+
+.About p {
+    width: 40vw;
+    padding: 0 50px;
+    float: right;
+}

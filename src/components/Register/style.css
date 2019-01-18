@@ -1,0 +1,23 @@
+.Register {
+    background-color: #B1B1B1;
+    overflow: auto;
+}
+
+.Register img {
+    width: 10vw;
+    float: right;
+}
+
+.Register #register-text {
+    width: 40vw;
+    padding: 0 50px;
+    float: left;
+}
+
+.Register button {
+    border: 0;
+    border-radius: 0;
+    color: #9A2835;
+    background-color: #D7D7D7;
+    font-size: 24px;
+}
