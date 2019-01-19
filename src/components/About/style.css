@@ -1,15 +1,22 @@
 .About {
     background-color: #C0C0C0;
-    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 50px;
+}
+
+.About .wrapper {
+    position: relative;
+    z-index: 0;
 }
 
 .About img {
-    width: 10vw;
-    float: left;
-}
-
-.About p {
-    width: 40vw;
-    padding: 0 50px;
-    float: right;
+    width: 12vw;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }

@@ -1,3 +1,14 @@
 .Sponsors {
     background-color: #969696;
+    text-align: center;
+}
+
+.Sponsors .sponsor-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.Sponsors img {
+    width: 16vw;
 }

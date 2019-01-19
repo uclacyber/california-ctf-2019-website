@@ -1,32 +1,32 @@
 .Navbar {
     background-color: #1E1E1E;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
     color: #C1C1C1;
     font-size: 36px;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .Navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
 }
 
 .Navbar li {
-    display: inline-block;
-}
-
-.Navbar li a {
-    display: block;
-    text-align: center;
-    width: 20vw;
     padding: 10px 0;
-    text-decoration: none;
 }
 
-.Navbar li a:hover {
+.Navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Navbar li:hover {
     background-color: #111;
 }

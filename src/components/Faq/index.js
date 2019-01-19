@@ -4,7 +4,7 @@ import './style.css';
 class Faq extends Component {
   render() {
     return (
-      <div className="Faq section">
+      <div className="Faq section" id="faq">
         <h2>FAQ</h2>
         <ul>
           <li>FAQ [click to expand FILLERFILLERFILLERFILLERFILLERFILLERFILLERFILLERFILLERFILLERFILLERFILLER]</li>
