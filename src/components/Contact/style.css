@@ -5,11 +5,11 @@
 }
 
 .Contact a::before {
-    content: "[ ";
+    content: "[";
 }
 
 .Contact a::after {
-    content: " ]";
+    content: "]";
 }
 
 .Contact a {

@@ -2,6 +2,8 @@
     background-image: url("/images/mountains.png"), linear-gradient(180deg, #FFFFFF 0%, #ECECEC 61.88%, #BCBCBC 100%);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: cover;
+    background-blend-mode: luminosity;
     height: calc(100vh - 65px);
     text-align: center;
 }
