@@ -7,12 +7,14 @@ class Register extends Component {
       <div className="Register section" id="register">
         <h2>REGISTER</h2>
 
+        <br />
+
         <div className="split">
           <div className="text-wrapper">
             <button>COMING SOON...</button>
           </div>
           <div className="wrapper">
-            <img src="/images/terminal.png"/>
+            <img src="images/terminal.png"/>
           </div>
         </div>
       </div>

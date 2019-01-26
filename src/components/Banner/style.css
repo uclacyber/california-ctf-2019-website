@@ -1,5 +1,5 @@
 .Banner {
-    background-image: url("/images/mountains.png"), linear-gradient(180deg, #FFFFFF 0%, #ECECEC 61.88%, #BCBCBC 100%);
+    background-image: url("https://uclaacm.github.io/ctf-website-2019/images/mountains.png"), linear-gradient(180deg, #FFFFFF 0%, #ECECEC 61.88%, #BCBCBC 100%);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;

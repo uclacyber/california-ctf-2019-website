@@ -11,7 +11,7 @@ class Banner extends Component {
         </div>
 
         <div id="watermark">
-          <img src="/images/logo-netsec-black.svg" />
+          <img src="images/logo-netsec-black.svg" />
           <p>hosted by acm cyber @ ucla</p>
         </div>
       </div>
