@@ -5,7 +5,7 @@ import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Register from './components/Register';
-import Sponsors from './components/Sponsors';
+import Schedule from './components/Schedule';
 import Faq from './components/Faq';
 import Contact from './components/Contact';
 
@@ -17,7 +17,7 @@ class App extends Component {
         <Navbar />
         <About />
         <Register />
-        <Sponsors />
+        <Schedule />
         <Faq />
         <Contact />
       </div>

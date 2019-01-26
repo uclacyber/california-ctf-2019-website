@@ -3,3 +3,19 @@
     text-align: center;
     color: white;
 }
+
+.Faq #questions {
+    text-align: left;
+}
+
+.Faq #questions h3 {
+    margin: 50px 0 5px 0;
+}
+
+.Faq #questions p, .Faq #questions ul {
+    margin: 0;
+}
+
+.Faq #questions a {
+    color: white;
+}

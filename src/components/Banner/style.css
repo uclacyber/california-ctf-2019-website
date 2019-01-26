@@ -42,3 +42,9 @@
 .Banner p {
     color: rgba(184, 184, 184, 0.5);
 }
+
+@media screen and (max-width: 768px) {
+    .Banner {
+        height: calc(100vh - 46px);
+    }
+}
