@@ -7,7 +7,7 @@ class Banner extends Component {
       <div className="Banner">
         <div id="title">
           <h1>CALIFORNIA CTF</h1>
-          <h2>2018</h2>
+          <h2>2019</h2>
         </div>
 
         <div id="watermark">
