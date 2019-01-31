@@ -2,7 +2,7 @@
   "name": "ctf-website-2019",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uclaacm.github.io/ctf-website-2019/",
+  "homepage": "http://ctfcalifornia.com/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
