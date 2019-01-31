@@ -43,7 +43,17 @@ h2{
     color:#9a2835;
     font-size:10vw;
     margin:0;
-    letter-spacing:20px
+    letter-spacing:20px;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 830px){
+    .Banner h1 > span {
+        display: block;
+        position: relative;
+        right: -10px;
+        /* The letter-spacing adds extra 20px to the right; here we shift right by 10px
+           to center it. */
+    }
 }
 .Banner h2{
     color:#380303;
