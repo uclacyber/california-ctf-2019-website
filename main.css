@@ -67,7 +67,8 @@ h2{
     margin:0
 }
 .Banner p{
-    color:hsla(0,0%,72.2%,.5)
+    color:hsla(0,0%,72.2%,.5);
+    text-shadow: 0px 0px 6px hsla(0,0%,72.2%,.5), 0px 0px 3px hsl(0,0%,72.2%);
 }
 @media screen and (max-width:768px){
     .Banner{
