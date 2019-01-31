@@ -23,7 +23,8 @@ h2{
     background-size:cover;
     background-blend-mode:luminosity;
     height:calc(100vh - 65px);
-    text-align:center
+    text-align:center;
+    position: relative;
 }
 #title{
     top:0;
@@ -37,7 +38,7 @@ h2{
     margin:auto
 }
 #watermark{
-    bottom:calc(5vh + 65px)
+    bottom: 7.5vh;
 }
 .Banner h1{
     color:#9a2835;
