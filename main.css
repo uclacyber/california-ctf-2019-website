@@ -45,6 +45,7 @@ h2{
     margin:0;
     letter-spacing:20px;
     text-transform: uppercase;
+    overflow: hidden;
 }
 @media screen and (max-width: 830px){
     .Banner h1 > span {
@@ -53,6 +54,11 @@ h2{
         right: -10px;
         /* The letter-spacing adds extra 20px to the right; here we shift right by 10px
            to center it. */
+    }
+}
+@media screen and (max-width: 380px) {
+    .Banner h1 {
+        letter-spacing: 5.26vw;
     }
 }
 .Banner h2{
