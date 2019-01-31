@@ -1,0 +1,242 @@
+body,html{
+    margin:0;
+    padding:0;
+    font-family:Rajdhani,sans-serif;
+    font-size:24px
+}
+h2{
+    margin-top:0
+}
+.section{
+    padding:10vh 15vw
+}
+.left{
+    float:left
+}
+.right{
+    float:right
+}
+.Banner{
+    background-image:url(images/mountains.png),linear-gradient(180deg,#fff,#ececec 61.88%,#bcbcbc);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size:cover;
+    background-blend-mode:luminosity;
+    height:calc(100vh - 65px);
+    text-align:center
+}
+#title{
+    top:0;
+    bottom:0;
+    height:50vh
+}
+#title,#watermark{
+    position:absolute;
+    right:0;
+    left:0;
+    margin:auto
+}
+#watermark{
+    bottom:calc(5vh + 65px)
+}
+.Banner h1{
+    color:#9a2835;
+    font-size:10vw;
+    margin:0;
+    letter-spacing:20px
+}
+.Banner h2{
+    color:#380303;
+    font-size:48px;
+    margin:0
+}
+.Banner p{
+    color:hsla(0,0%,72.2%,.5)
+}
+@media screen and (max-width:768px){
+    .Banner{
+        height:calc(100vh - 46px)
+    }
+}
+.Navbar{
+    background-color:#1e1e1e;
+    color:#c1c1c1;
+    font-size:36px;
+    overflow:hidden;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    z-index:1
+}
+.Navbar ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    text-align:center
+}
+.Navbar li{
+    padding:10px 0
+}
+.Navbar a{
+    text-decoration:none;
+    color:inherit
+}
+.Navbar li:hover{
+    background-color:#111
+}
+@media screen and (max-width:768px){
+    .Navbar{
+        font-size:20px
+    }
+}
+.About{
+    background-color:silver
+}
+.About h2{
+    text-align:center
+}
+.About .split{
+    display:grid;
+    grid-template-columns:1fr 3fr;
+    grid-column-gap:50px
+}
+.About .wrapper{
+    position:relative;
+    z-index:0
+}
+.About img{
+    width:12vw;
+    vertical-align:middle;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto
+}
+@media screen and (max-width:768px){
+    .About .wrapper{
+        position:static;
+        text-align:center
+    }
+    .About img{
+        position:static;
+        width:40vw
+    }
+    .About .split{
+        display:block
+    }
+}
+.Register{
+    background-color:#b1b1b1
+}
+.Register h2{
+    text-align:center
+}
+.Register .split{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap:50px
+}
+.Register .wrapper{
+    position:relative;
+    z-index:0
+}
+.Register img{
+    width:12vw;
+    vertical-align:middle;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto
+}
+.Register button{
+    border:0;
+    border-radius:0;
+    color:#9a2835;
+    background-color:#d7d7d7;
+    font-size:24px
+}
+.text-wrapper{
+    text-align:right
+}
+@media screen and (max-width:768px){
+    .Register .wrapper{
+        position:static;
+        text-align:center
+    }
+    .Register img{
+        position:static;
+        width:40vw
+    }
+    .Register .split{
+        display:block
+    }
+    .Register .text-wrapper{
+        text-align:center;
+        margin-bottom:20px
+    }
+}
+.Schedule{
+    background-color:#969696;
+    text-align:center
+}
+.Schedule ul{
+    list-style:none;
+    text-align:left
+}
+.Schedule table{
+    text-align:left;
+    margin:auto
+}
+.Schedule table th{
+    padding-right:40px;
+    white-space:nowrap
+}
+@media screen and (max-width:768px){
+    .Schedule table th{
+        margin-top:20px
+    }
+    .Schedule table td,.Schedule table th{
+        display:block
+    }
+}
+.Faq{
+    background-color:#4e4e4e;
+    text-align:center;
+    color:#fff
+}
+.Faq #questions{
+    text-align:left
+}
+.Faq #questions h3{
+    margin:50px 0 5px
+}
+.Faq #questions p,.Faq #questions ul{
+    margin:0
+}
+.Contact,.Faq #questions a{
+    color:#fff
+}
+.Contact{
+    background-color:#3a3a3a;
+    text-align:center
+}
+.Contact a:before{
+    content:"["
+}
+.Contact a:after{
+    content:"]"
+}
+.Contact a{
+    margin:0 20px;
+    text-decoration:none;
+    color:inherit
+}
+.Contact a:hover{
+    text-decoration:underline
+}
