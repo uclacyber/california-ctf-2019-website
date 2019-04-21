@@ -261,3 +261,15 @@ h2{
 .Contact a:hover{
     text-decoration:underline
 }
+#special-message {
+    position: fixed;
+    top: 80px;
+    left: 15vw;
+    width: 70vw;
+    z-index: 10;
+    background-color: rgb(255, 90, 82);
+    color: rgb(162, 7, 7);
+    border: none;
+    padding: 1ex;
+    border-radius: 1ex;
+}
